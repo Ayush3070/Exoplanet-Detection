@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "exoplanet-detector"
+version = "1.0.0"
+description = "ML pipeline for detecting exoplanets from stellar light curves using the transit method"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Ayush Mishra", email = "hello@exoplanet.dev"},
+]
+requires-python = ">=3.10"
+keywords = ["exoplanet", "astronomy", "machine-learning", "transit-method", "light-curve"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scipy>=1.11",
+    "scikit-learn>=1.3",
+    "xgboost>=2.0",
+    "matplotlib>=3.7",
+    "lightkurve>=2.4",
+    "batman-package>=2.4",
+    "astropy>=5.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/Ayush3070/Exoplanet-Detection"
+Repository = "https://github.com/Ayush3070/Exoplanet-Detection"
+Issues = "https://github.com/Ayush3070/Exoplanet-Detection/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.csv", "*.txt"]
+
+[project.scripts]
+exoplanet-demo = "src.demo:run_demo"
+exoplanet-pipeline = "src.pipeline:run_pipeline"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
+ignore = ["E501"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"

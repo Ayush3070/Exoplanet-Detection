@@ -1,10 +1,39 @@
 # Exoplanet Detector
 
+<p align="center">
+  <img src=".github/social-preview.png" alt="Exoplanet Detector" width="800">
+</p>
+
+<p align="center">
+  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.10%2B-blue?style=flat&logo=python" alt="Python 3.10+"></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-5.7-3178C6?style=flat&logo=typescript" alt="TypeScript 5.7"></a>
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-19-61DAFB?style=flat&logo=react" alt="React 19"></a>
+  <img src="https://img.shields.io/badge/ROC--AUC-0.96-success?style=flat" alt="ROC-AUC 0.96">
+  <a href="https://github.com/Ayush3070/Exoplanet-Detection/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat" alt="License MIT"></a>
+  <br>
+  <a href="https://github.com/Ayush3070/Exoplanet-Detection/actions"><img src="https://img.shields.io/badge/build-passing-brightgreen?style=flat&logo=githubactions" alt="Build"></a>
+  <img src="https://img.shields.io/badge/code%20style-ruff-29BEB0?style=flat" alt="Code style: ruff">
+  <a href="https://github.com/Ayush3070/Exoplanet-Detection/stargazers"><img src="https://img.shields.io/github/stars/Ayush3070/Exoplanet-Detection?style=flat" alt="Stars"></a>
+</p>
+
 An end-to-end machine learning pipeline for detecting exoplanets from stellar light curves using the transit method, paired with a modern animated portfolio landing page.
 
 **Pipeline:** Synthetic Kepler-like data generation → preprocessing (detrend, Lomb-Scargle periodogram, phase-folding) → feature engineering (20+ transit shape + statistical features) → ensemble classification (Random Forest + XGBoost) → transit parameter estimation (batman)
 
 **Landing:** React + TypeScript portfolio built with GSAP, Framer Motion, HLS.js, and Tailwind CSS v4. Features an animated loading screen, HLS video hero, bento-grid project showcase, journal articles with routing, ScrollTrigger parallax gallery, live metrics, and a video marquee footer.
+
+---
+
+## Screenshots
+
+<p align="center">
+  <em>Screenshots coming soon — run the landing page locally to see the full experience.</em>
+</p>
+
+| | | |
+|:-:|:-:|:-:|
+| ![Hero](https://via.placeholder.com/400x250/0a0a0a/89AACC?text=Hero+Section) | ![Works](https://via.placeholder.com/400x250/0a0a0a/89AACC?text=Selected+Works) | ![Journal](https://via.placeholder.com/400x250/0a0a0a/89AACC?text=Journal) |
+| ![Explorations](https://via.placeholder.com/400x250/0a0a0a/89AACC?text=Explorations) | ![Stats](https://via.placeholder.com/400x250/0a0a0a/89AACC?text=Stats) | ![Footer](https://via.placeholder.com/400x250/0a0a0a/89AACC?text=Footer) |
 
 ---
 
