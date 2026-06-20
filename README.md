@@ -309,3 +309,18 @@ exoplanet-detector/
     <a href="https://github.com/Ayush3070/Exoplanet-Detection/blob/main/LICENSE">MIT License</a>
   </sub>
 </p>
+
+---
+
+<p align="center">
+  Made with ❤️ by <strong>Ayush Mishra</strong>
+  <br>
+  <sub>
+    <code>Python</code> ·
+    <code>TypeScript</code> ·
+    <code>JavaScript</code> ·
+    <code>HTML</code> ·
+    <code>CSS</code> ·
+    <code>Bash</code>
+  </sub>
+</p>
